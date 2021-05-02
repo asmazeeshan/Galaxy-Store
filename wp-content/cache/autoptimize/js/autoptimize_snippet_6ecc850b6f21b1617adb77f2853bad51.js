@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('.tab-title').each(function(){var section_id=$(this).find("a").attr("href");$(this).find("a").removeAttr("href");$(this).click(function(){$(this).siblings().removeClass("active-tab");$(this).addClass("active-tab");$('.tab-content').hide();$(section_id).show();$('html, body').animate({scrollTop:$(section_id).offset().top},1000);});});});
