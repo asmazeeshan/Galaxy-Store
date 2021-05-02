@@ -1,0 +1,16 @@
+2021-05-02T08:51:36+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\class-et-builder-element.php:6696
+Stack trace:
+#0 C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\class-et-builder-element.php(3904): ET_Builder_Element->_add_position_fields()
+#1 C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\class-et-builder-element.php(854): ET_Builder_Element->_add_additional_fields()
+#2 C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\main-structure-elements.php(1370): ET_Builder_Element->__construct()
+#3 C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\framework.php(759): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Galaxy-Store\wp-includes\class-wp-hook.php(292): et_builder_add_main_elements(Object(WP))
+#5 C:\xampp\htdocs\Galaxy-Store\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\Galaxy-Store\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Galaxy-Store\wp-includes\class-wp.php(763): do_action_ref_array('wp', Array)
+#8 C:\xampp\htdocs\Galaxy-Store\wp-includes\functions.php(1291): WP->main('')
+#9 C:\xampp\htdocs\Galaxy-Store\wp-blog-header.php(16): wp()
+#10 C:\xampp\htdocs\Galaxy-Store\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Galaxy-Store\wp-content\themes\Divi\includes\builder\class-et-builder-element.php on line 6696
+
